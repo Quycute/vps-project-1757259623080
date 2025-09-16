@@ -37,6 +37,8 @@ jobs:
 
 
 
+
+
         $env:GITHUB_TOKEN_VPS | Out-File -FilePath "D:\a\vpstoken.txt"
         try {
           Write-Host "📥 Installing TightVNC..."
